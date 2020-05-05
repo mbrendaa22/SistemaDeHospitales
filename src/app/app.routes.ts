@@ -7,7 +7,7 @@ import { NoPageFoundComponent } from './shared/no-page-found/no-page-found.compo
 /* Defino Rutas */
 /* la ruta con '' (espacio vacio) va a redireccionar a pagecomponent que tiene hijos si es vacio, va al dashboard*/
 const appRoutes: Routes = [
-     { path: 'login', component: LoginComponent },
+    { path: 'login', component: LoginComponent },
     { path: 'register', component: RegisterComponent },
     { path: '**', component: NoPageFoundComponent }
 ];

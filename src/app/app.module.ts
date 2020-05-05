@@ -14,7 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
 // temporal
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // Servicios
 /* import { SettingsService } from './services/service.index'; */
@@ -34,6 +34,7 @@ import { RxjsComponent } from './pages/rxjs/rxjs.component';
     AppRoutingModule,
     APP_ROUTES,
     PagesModule,
+    ReactiveFormsModule,
     FormsModule,
     ServiceModule
   ],
